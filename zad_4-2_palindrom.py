@@ -4,7 +4,7 @@ def palindrome():
 
     word = input("No to wpisz dowolne słowo ;): ")
 
-    if list(word) == list(reversed(word)):
+    if list(word.lower()) == list(reversed(word.lower())):
         #print("To słowo jest palindromem!") Optional
         return True
     else:
