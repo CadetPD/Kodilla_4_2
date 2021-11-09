@@ -5,7 +5,7 @@ def palindrome(word):
     Parameter: word
     Argument: 'word'
     Sollution: compare lists for argument ([normal] vs [reversed])
-    Func result: returns after bool()
+    Func result: returns after func execution
 
     """
 
@@ -14,4 +14,4 @@ def palindrome(word):
     else:
         return False
 
-print(bool(palindrome("Kajak")))
+print(palindrome("Kajak"))
